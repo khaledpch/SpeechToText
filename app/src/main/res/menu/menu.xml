@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuMainSort"
+        android:icon="@drawable/ic_menu_sort_by_size"
+        android:showAsAction="ifRoom"
+        android:title="@string/menuMainSort"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:background="@color/buttonPressed1"
+                    android:id="@+id/menuMainSortByTimestamp"
+                    android:showAsAction="ifRoom"
+                    android:title="Anglais" />
+                <item
+                    android:background="@color/buttonPressed1"
+                    android:id="@+id/menuMainSortByTranslation"
+                    android:showAsAction="ifRoom"
+                    android:title=" Français" />
+                <item
+                    android:background="@color/buttonPressed1"
+                    android:id="@+id/menuMainSortByEvaluation"
+                    android:showAsAction="ifRoom"
+                    android:title="Arabe" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuMainExamples"
+        android:icon="@drawable/ic_menu_help"
+        android:showAsAction="ifRoom"
+        android:title="@string/menuMainExamples"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuMainSettings"
+        android:icon="@drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/menuMainSettings"
+        app:showAsAction="always" />
+
+</menu>
