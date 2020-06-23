@@ -8,3 +8,8 @@ L’application mobile permettant de :
  Basée sur une interface mobile simple légère, efficace et compatible. 
  Rapide (temps de connexion, temps de sharing) et fluide (fluidité audio), étant donné le nombre de fonctionnalités importantes.
 Elle devra aussi offrir une simplicité d’utilisation et surtout ergonomie d’interface
+
+![](image/Screenshot_2017-06-10-02-16-51.png)
+![](image/Screenshot_2017-06-10-02-16-33.png)
+![](image/Screenshot_2017-06-10-02-17-05.png)
+![](image/Screenshot_2017-06-10-02-16-41.png)
